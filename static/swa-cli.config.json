@@ -1,0 +1,17 @@
+{
+    "configurations": {
+      "my-app": {
+        "appLocation": "./",
+        "apiLocation": "api",
+        "outputLocation": "static",
+        "start": {
+          "outputLocation": "static"
+        },
+        "deploy": {
+          "appLocation": "static",
+          "apiLocation": "api",
+          "env": "production"
+        }
+      }
+    }
+  }
