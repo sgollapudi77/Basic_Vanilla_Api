@@ -30,6 +30,8 @@ jobs:
           app_location: "/static" # App source code path
           api_location: "api" # Api source code path - optional
           output_location: "" # Built app content directory - optional
+          function_language: "node"
+          function_language_version: "16"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
