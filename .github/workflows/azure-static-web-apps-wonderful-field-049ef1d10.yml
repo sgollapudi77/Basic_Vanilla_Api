@@ -30,7 +30,6 @@ jobs:
           app_location: "/static" # App source code path
           api_location: "api" # Api source code path - optional
           output_location: "" # Built app content directory - optional
-          deployment_environment: "hyphen-missing"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
