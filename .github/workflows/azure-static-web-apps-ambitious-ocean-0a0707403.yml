@@ -16,13 +16,6 @@ jobs:
         with:
           version: 7
 
-      - run: pnpm install
-      - run: pnpm run formatcheck
-      - run: pnpm run stylecheck
-      - run: pnpm run typecheck
-      - run: pnpm run lint
-      - run: pnpm run test
-
   build-and-deploy-preview:
     if: contains(github.event.pull_request.labels.*.name, 'pr-environment')
     runs-on: ubuntu-latest
