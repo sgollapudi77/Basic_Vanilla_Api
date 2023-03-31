@@ -3,7 +3,9 @@ name: Validate Pull Request
 on:
   pull_request:
     branches: main
-
+env:
+  APP_LOCATION: "/"
+  
 jobs:
   validate-pull-request:
     runs-on: ubuntu-latest
